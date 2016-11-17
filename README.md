@@ -3,6 +3,12 @@ Data Processing and Cleaning for WMP Lab (developed by CMParlett)
 
 ## DDAuto.py
 Cleans Delayed Discounting Data to return Overall and by block k-scores
+
+[open terminal/Command Line in directory where your e-merged data is]
+python
+from wmpclean import *
+DDAuto()
+
 ### Options
 participantidtype='[0-9][0-9][0-9]'
 
